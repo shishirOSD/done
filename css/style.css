@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100px;
+}
+.cakebd{
+    background: rgb(107, 100, 100) url(../img/image2.jpg);
+    background-color: #00000036;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    background-blend-mode: overlay;
+}
+.cakebhai{
+    max-width: 1000px;
+    margin:0 auto;
+    text-align: center;
+}
+.cakebhai h1{
+font-size: 45px;
+
+}
+.cakebhai p{
+font-size: 20px;
+}
+
+
+
+.bolgsection{
+    padding: 50px 0px;
+}
+.continer{
+  max-width: 1200px;  
+  margin: 0 auto; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.coloum{
+    flex-basis: 33.33%; 
+    padding: 10px;
+}
+.card{
+    
+    padding: 130px 30px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 9px black;
+}
+.card h2{
+    color: #222;
+    font-size: 40px;
+    font-weight: 900;
+}
+.card p{
+     color: #222;
+     font-size: 18px;
+     line-height:1.5;
+     margin: 10px 0px 30px;
+}
+.card a{
+    background: #222;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 400;
+    transition-duration: 0.4s;
+}
+/*.card a:hover{ 
+    background-color: #fff;
+    color: #222;
+} */
+.card:hover{
+    background-color: black;
+}
+.card:hover h2{ 
+    color: #fff;
+}
+.card:hover p{
+  color: #fff;
+}
+.card a:hover{ 
+    background-color: #fff;
+    color: #222;
+} 
